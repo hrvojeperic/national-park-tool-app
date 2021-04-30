@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codingproject.nationalparktool">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NationalParkInformationAndNavigationTool">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.codingproject.nationalparktool.activities.MapActivity"
+            android:label="@string/title_activity_map" />
+        <activity android:name="com.codingproject.nationalparktool.activities.FaqActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.BookmarkedActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.RegisterActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.TourGuidesActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.ServicesActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.ActivitiesActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.HistoryActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.MoreInfoActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.MenuActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.NationalParkListActivity" />
+        <activity android:name="com.codingproject.nationalparktool.activities.LoginActivity"/>
+        <activity android:name="com.codingproject.nationalparktool.activities.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

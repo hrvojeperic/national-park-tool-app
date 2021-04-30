@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingHorizontal="0dp"
+    android:paddingVertical="0dp"
+    android:background="@color/secondary_theme">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/historyTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="History"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/main_theme"/>
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/historyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:paddingHorizontal="5dp"
+            android:paddingTop="10dp"
+            android:text=""
+            android:background="@color/secondary_theme"
+            app:trimExpandedText=" read more"
+            app:trimCollapsedText=" read less"
+            app:trimMode="trimModeLength"
+            app:trimLength="200"
+            app:colorClickableText="@color/main_theme" />
+
+    </ScrollView>
+
+</LinearLayout>

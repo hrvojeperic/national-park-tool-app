@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingHorizontal="0dp"
+    android:paddingVertical="0dp"
+    android:background="@color/secondary_theme">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/tourGuidesTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tour Guides"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/main_theme"/>
+    
+    <ImageView
+        android:id="@+id/noDataImageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/tourGuidesListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:background="@color/secondary_theme"/>
+
+</LinearLayout>
