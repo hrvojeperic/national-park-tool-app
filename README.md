@@ -14,7 +14,7 @@ Developed using Android Studio
 Joey Peric
 
 
-![image](https://user-images.githubusercontent.com/47464964/132026669-c339edfe-558c-422a-93f9-01fb7192f4ff.png)
+![image](https://github.com/hrvojeperic/national-park-tool-app/blob/main/Demo/DemoFinal.gif)
 
 
 
