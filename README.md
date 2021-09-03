@@ -12,5 +12,9 @@ Developed using Android Studio
 
 ## Contributors
 Joey Peric
-![image](https://user-images.githubusercontent.com/47464964/132026088-af061db7-2c58-4098-bf54-40bec1ae4ff4.png)
+
+
+![image](https://user-images.githubusercontent.com/47464964/132026669-c339edfe-558c-422a-93f9-01fb7192f4ff.png)
+
+
 
