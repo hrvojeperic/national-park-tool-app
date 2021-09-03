@@ -7,7 +7,7 @@ Features include searching for national parks, bookmarking favorite parks, park 
 services, tour guides, and more. 
 
 ## App Login
-Email: `admin@gmail.com` </br>
+Email: admin<span>@</span>gmail.com </br>
 Password: admin </br>
 
 ## Project Details
